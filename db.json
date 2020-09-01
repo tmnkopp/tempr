@@ -1,0 +1,15 @@
+{
+"templates":[{
+        "id":1,
+        "content":"content 1",
+        "name":"nam1"
+    },{
+        "id":2,
+        "content":"content 2",
+        "name":"nam2"
+    },{
+        "id":3,
+        "content":"content 3",
+        "name":"nam3"
+    }   
+]}
