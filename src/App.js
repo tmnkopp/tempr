@@ -1,10 +1,17 @@
-import React from 'react'; 
+import React, {Fragment} from 'react'; 
+import SearchBar from './components/layout/SearchBar';
+import Templates from './components/templates/Templates';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">My App </div>
+    <Fragment>
+        <SearchBar></SearchBar>
+        <div>
+            <Templates></Templates>
+        </div>
+    </Fragment>
   );
-}
-
-export default App;
+} 
+export default App; 
